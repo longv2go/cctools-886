@@ -24,7 +24,7 @@ CXXLIB = -stdlib=libc++
 ifeq "" "$(TRIE)"
   LIB_PRUNETRIE =
   else
-  LIB_PRUNETRIE = -L$(DT_TOOLCHAIN_DIR)/usr/local/lib -lprunetrie
+  LIB_PRUNETRIE = -L$(SYMROOT)/../dl_toolchain/usr/local/lib -lprunetrie
 endif
 
 MKDIRS = /bin/mkdir -p
