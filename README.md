@@ -10,6 +10,13 @@ cctools
 2. include/llvm-c/lto.h 这个文件来自 llvm 项目
 3. include/mach-o/prune_trie.h 这个头文件来自 ld64 项目
 
+### 编译
+
+```
+make
+```
+
+执行make后会在对应的目录下面生成以 .NEW 结尾的可执行文件
 
 ### 参考
 
